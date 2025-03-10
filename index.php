@@ -161,7 +161,7 @@ function generatePetName($syllables, $length = 3) {
     return ucfirst($name);
 }
 
-$syllables = ["mi", "ka", "to", "lu", "fi", "ba", "zo", "cha", "ru"];
+$syllables = ["ka", "na", "to", "bu", "nai", "ku", "we", "zo", "ug"];
 
 $pets = [
     "Кішка" => generatePetName($syllables),
